@@ -8,6 +8,10 @@ TagManager:
   - area
   - enemy
   - bullet
+  - Ground
+  - Bullet
+  - Area
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -15,7 +19,7 @@ TagManager:
   - 
   - Water
   - UI
-  - enemy
+  - Enemy
   - 
   - 
   - 
