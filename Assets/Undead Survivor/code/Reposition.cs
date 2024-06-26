@@ -14,7 +14,7 @@ public class Reposition : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        if (!collision.CompareTag("area"))
+        if (!collision.CompareTag("Area"))
             return;
 
         Vector3 playerPos = GameManager.instance.player.transform.position;
@@ -28,17 +28,17 @@ public class Reposition : MonoBehaviour
 
         switch (transform.tag) 
         {
-            case "ground" :
+            case "Ground" :
                 if(diffX > diffY)
                 {
-                    transform.Translate(Vector3.right * dirX * 38);
+                    transform.Translate(Vector3.right * dirX * 40);
                 }
                 else  if(diffX < diffY)
                 {
-                    transform.Translate(Vector3.up * dirY * 38);
+                    transform.Translate(Vector3.up * dirY * 40);
                 }
                 break;
-            case "enemy" :
+            case "Enemy" :
                 if (coll.enabled)
                 {
                     transform.Translate(playerDir * 20 + new Vector3(Random.Range(-3f, 3f),Random.Range(-3f, 3f), 0f ));
