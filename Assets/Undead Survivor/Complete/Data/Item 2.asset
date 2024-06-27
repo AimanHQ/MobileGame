@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 2
   itemId: 2
-  itemName: "\uD14C\uD06C\uB2C8\uCEEC \uC7A5\uAC11"
-  itemDesc: "\uC5F0\uC0AC\uC18D\uB3C4 {0}% \uC99D\uAC00"
+  itemName: Technical Glove
+  itemDesc: Fire rate {0}% increase
   itemIcon: {fileID: -201829820, guid: d71a3dc7aa20fad4f9a99fc76a9254ba, type: 3}
   baseDamage: 0
   baseCount: 0
